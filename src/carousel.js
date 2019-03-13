@@ -71,6 +71,7 @@ export default class SideSwipe extends Component<CarouselProps, State> {
       onPanResponderMove: this.handleGestureMove,
       onPanResponderRelease: this.handleGestureRelease,
       onPanResponderTerminationRequest: this.handleGestureTerminationRequest,
+      onPanResponderTerminate:this.handleGestureRelease
     });
   }
 
